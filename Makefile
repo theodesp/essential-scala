@@ -9,6 +9,9 @@ compile:
 watch:
 	$(MILL) $(FLAGS) $(TARGET).compile
 
+watch-tests:
+	$(MILL) $(FLAGS) $(TARGET).test
+
 run:
 	$(MILL) $(TARGET).run
 
