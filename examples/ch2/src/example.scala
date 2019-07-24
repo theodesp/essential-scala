@@ -129,4 +129,22 @@ object example extends App {
   }
   clock.time
   clock.time
+
+  if(1 < 2) "Yes" else "No"
+  if(1 < 2) println("Yes") else println("No")
+
+  def name: String = {
+    val title = "Professor"
+    val name = "Funkenstein"
+    title + " " + name
+  }
+
+  name
+
+  // 2.6.4 Exercises
+  if(1 > 2) "alien" else "predator" // String
+
+  if(1 > 2) "alien" else 2001 // Any
+
+  if(false) "hello" // Any
 }
